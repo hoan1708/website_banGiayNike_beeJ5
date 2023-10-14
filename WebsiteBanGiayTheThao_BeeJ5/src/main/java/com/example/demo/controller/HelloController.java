@@ -9,4 +9,10 @@ public class HelloController {
     public String showViewHello(){
         return "hello";
     }
+
+
+    @GetMapping("testView")
+    public String testViewAdmin(){
+        return "testView";
+    }
 }
